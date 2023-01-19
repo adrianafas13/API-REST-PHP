@@ -56,6 +56,7 @@
 
 .flex-container .fill button{
     background-color: #fff;
+    transition-duration: 0.4s;
     margin-top: 10px;
     width: 43%;
     height: 30px;
@@ -67,6 +68,7 @@
 
 .flex-container .fill button:hover{
     background-color: var(--pink);
+    transition-duration: 0.4s;
 }
 
 .flex-container .show table{
@@ -90,4 +92,29 @@
     font-size: 18px;
     font-weight: 500;
     height: 23px;
+}
+
+.flex-container .show table .tbody tr:hover{
+    background-color: red;
+}
+
+.flex-container .show table td button{
+    background-color: var(--white);
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.flex-container .show table td button:hover{
+    background-color: var(--ligh-green);
+}
+
+footer {
+    background-color: var(--pink);
+    position:absolute;
+    bottom:0;
+    width:99%;
+    height: 20px;
+    text-align: center;
 }

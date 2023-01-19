@@ -25,8 +25,8 @@ function fillTable(){
             <td>${users[i].lastName}</td>
             <td>${users[i].birthday}</td>
             <td>${users[i].country}</td>
-            <td><button type="button" onclick="select(${i})">Y</button></td>
-            <td><button type="button" onclick="deleteUser(${i})">X</button></td>
+            <td><button id="update-user-table" type="button" onclick="select(${i})">↻</button></td>
+            <td><button id="delete-user-table" type="button" onclick="deleteUser(${i})">x</button></td>
         <tr>`;
     }
     
