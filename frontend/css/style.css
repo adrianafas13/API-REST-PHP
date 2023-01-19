@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;500&display=swap');
+:root{
+    --white:#FFFFE8;
+    --pink:#FFD4D4;
+    --ligh-green:#CDE990;
+    --dark-green:#AACB73;
+    --gray:#7e7e7e;
+}
+
+*{
+    background-color: var(--white);
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+#title{
+    text-align: center;
+    color: var(--gray);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container > div {
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    line-height: 15px;
+}
