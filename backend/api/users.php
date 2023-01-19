@@ -2,8 +2,9 @@
     
     header("Content-Type: application/json");
     include_once("../class/class-user.php");
+    sleep(1);
     switch($_SERVER['REQUEST_METHOD']){
-        case 'POST'://save
+        case 'POST':
             $_POST = json_decode(file_get_contents('php://input'), true);
             $user = new User($_POST["name"], $_POST["lastName"], $_POST["birthday"], $_POST["country"]);
             $user->createUser();

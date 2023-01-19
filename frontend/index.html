@@ -16,28 +16,27 @@
             <p>Lastname: </p> <input id="lastName" type="text" placeholder="Lastname"><br/>
             <p>Birthday: </p> <input id="birthday" type="date" placeholder="dd/mm/yyyy"><br/>
             <p>Country: </p> <input id="country" type="text" placeholder="Country"><br/><br/>
-            <button type="button" (click)="save()">Save</button>
+            <button id="btn-save" type="button" onclick="save()">Save</button>
+            <button id="btn-update" type="button" onclick="update()" style="display: none;">Update</button>
         </div>
         <div class="show">
             <h2>User List</h2>
-            <table>
+            <table id="users-table">
                 <thead>
                     <tr>
                         <th>Name</th>
                         <th>Lastname</th>
                         <th>Birthday</th>
                         <th>Country</th>
+                        <th>Update</th>
+                        <th>Delete</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <td>aa</td>
-                    <td>bb</td>
-                    <td>aa</td>
-                    <td>bb</td>
-                </tbody>
+                <tbody></tbody>
             </table>
-
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
