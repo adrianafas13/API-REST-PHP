@@ -28,3 +28,46 @@
     text-align: center;
     line-height: 15px;
 }
+
+.flex-container .fill{
+    /*background-color: red;*/
+
+}
+
+.flex-container .fill p{
+    font-size: 20px;
+    color: var(--gray);
+    text-align: left;
+    margin-left: 50px;
+}
+
+.flex-container .fill input{
+    width: 83%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid var(--dark-green);
+    font-size: 20px;
+    color: var(--dark-green);
+}
+
+.flex-container .fill input::placeholder{
+    font-size: 20px;
+    color: var(--dark-green);
+}
+
+.flex-container .fill button{
+    background-color: #fff;
+    margin-top: 10px;
+    width: 43%;
+    height: 30px;
+    border: 2px solid var(--dark-green);
+    border-radius: 2px;
+    color: var(--gray);
+    font-size: 20px;
+    
+    
+}
+
+.flex-container .show{
+    background-color: var(--pink);
+}
