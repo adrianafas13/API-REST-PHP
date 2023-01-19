@@ -29,9 +29,8 @@
     line-height: 15px;
 }
 
-.flex-container .fill{
-    /*background-color: red;*/
-
+.flex-container > div h2{
+    color: var(--gray);
 }
 
 .flex-container .fill p{
@@ -64,10 +63,31 @@
     border-radius: 2px;
     color: var(--gray);
     font-size: 20px;
-    
-    
 }
 
-.flex-container .show{
+.flex-container .fill button:hover{
     background-color: var(--pink);
+}
+
+.flex-container .show table{
+    background-color: var(--dark-green);
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.flex-container .show table th{
+    background-color: var(--pink);
+    color: var(--gray);
+    font-size: 20px;
+    font-weight: 500;
+    height: 25px;
+}
+
+.flex-container .show table td{
+    background-color: #fff;
+    color: var(--gray);
+    font-size: 18px;
+    font-weight: 500;
+    height: 23px;
 }
